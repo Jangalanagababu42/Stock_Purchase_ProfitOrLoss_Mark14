@@ -1,0 +1,147 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Montserrat:wght@200;500&display=swap');
+
+:root{
+    --primary-color:#bf9626;
+    --dark-gray:#687280;
+    --off-white:#90d6cc;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+  
+
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* margin-top: 5rem; */
+
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: fixed;
+  top: 0;
+  width: 100%;
+    /* position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%; */
+   
+}
+.navigation .nav-brand {
+    font-weight: bold;
+    color: rgb(209, 96, 15);
+    font-family: 'Amita', cursive;
+   text-align: center;
+   font-size: larger;
+}
+h1{
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+   
+    
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+.input{
+display: block;
+padding: 0.5rem;
+border-radius: 1rem;
+margin: auto;
+
+/* margin: 1rem; */
+
+}
+.container{
+   text-align: center;
+}
+#submit-btn{
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 8%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+
+}
+#submit-btn:hover{
+    background-color: rgb(70, 171, 208);
+    color: rgb(224, 241, 73);
+}
+h1{
+    text-align: center;
+}
+.image{
+    height: 3rem;
+    width: 3rem;
+}
+.link:hover{
+    color: black;
+    background-color:white;
+    border-radius: 2rem;
+}
+.link2{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* margin-top: 5rem; */
+
+}
+#outputMessage{
+    text-align: center;
+    color: rgb(16, 156, 16);
+  
+}
+.main{
+    margin-bottom: 20rem;
+    margin-top: 9rem;
+    text-align: center;
+}
+
+
